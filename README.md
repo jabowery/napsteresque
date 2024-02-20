@@ -1,8 +1,8 @@
-== napd The Napster Server That Never Wuz ==
+## napd: The Napster Server That Never Wuz
 
 Just after the the DotCon bubble *POP* Dan Brumleve was writing a Napster server in C++.
 
-Foreshadowing my enthusiasm for Algorithmic Information Theory, and knowing his mathematical bent, I encouraged him to write a maximally-factored (minimum length) implementation.
+Foreshadowing [my enthusiasm for Algorithmic Information Theory](http://prize.hutter1.net/#history), and knowing his mathematical bent, I encouraged him to write a maximally-factored implementation.
 
 The result is what you see in this repo.
 
