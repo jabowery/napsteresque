@@ -1,0 +1,1873 @@
+channel.o: channel.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ channel.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ defines.hh /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h client.hh \
+ command.hh /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h data.hh address.hh /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h socket.hh /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h time.hh /usr/include/sys/time.h user.hh \
+ codes.hh server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h thread.hh mutex.hh \
+ pollset.hh
+client.o: client.cc /usr/include/errno.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h client.hh defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h data.hh address.hh /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h socket.hh time.hh /usr/include/sys/time.h
+command.o: command.cc /usr/include/stdlib.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+ /usr/include/alloca.h /usr/include/stdio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/stdio_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/ctype.h /usr/include/assert.h /usr/include/string.h \
+ /usr/include/netinet/in.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdint.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/time.h /usr/include/signal.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ data.hh address.hh /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/sys/socket.h /usr/include/arpa/inet.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ time.hh /usr/include/sys/time.h
+user.o: user.cc user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ address.hh /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/stdint.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h defines.hh command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ data.hh time.hh /usr/include/sys/time.h
+codes.o: codes.cc codes.hh
+pollset.o: pollset.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h pollset.hh \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h socket.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h data.hh address.hh command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ time.hh /usr/include/sys/time.h
+file.o: file.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/slist \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_slist.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /usr/include/ctype.h command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/netinet/in.h /usr/include/stdint.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h data.hh address.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/sys/socket.h /usr/include/arpa/inet.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ file.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ filecert.hh ternary.hh server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h socket.hh \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h time.hh \
+ /usr/include/sys/time.h client.hh channel.hh user.hh thread.hh \
+ mutex.hh pollset.hh
+functions.o: functions.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ /usr/include/sys/socket.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/sys/time.h \
+ /usr/include/netinet/in.h /usr/include/stdint.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/arpa/inet.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ functions.hh
+ignore.o: ignore.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/slist \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_slist.h \
+ defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ db.hh client.hh command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h data.hh address.hh /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h socket.hh /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h time.hh /usr/include/sys/time.h ignore.hh \
+ server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h channel.hh user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ thread.hh mutex.hh pollset.hh
+notify.o: notify.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ defines.hh /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h codes.hh \
+ functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ client.hh command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h data.hh address.hh /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h socket.hh /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h time.hh /usr/include/sys/time.h remote.hh \
+ server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h channel.hh user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ thread.hh mutex.hh pollset.hh notify.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/slist \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_slist.h
+remote.o: remote.cc
+socket.o: socket.cc socket.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/stdint.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h data.hh defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ address.hh command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ time.hh /usr/include/sys/time.h
+address.o: address.cc defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h address.hh \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h
+scheduled.o: scheduled.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/algorithm \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tempbuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algo.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_heap.h \
+ defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h socket.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h data.hh address.hh command.hh time.hh \
+ /usr/include/sys/time.h client.hh channel.hh user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ thread.hh mutex.hh pollset.hh scheduled.hh filecert.hh
+event.o: event.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/slist \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_slist.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ scheduler.hh event.hh time.hh /usr/include/sys/time.h
+scheduler.o: scheduler.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/slist \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_slist.h \
+ defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ scheduler.hh event.hh time.hh /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/sys/time.h
+search.o: search.cc defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ codes.hh file.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ filecert.hh /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h data.hh address.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/sys/socket.h /usr/include/arpa/inet.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h ternary.hh search.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/slist \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_slist.h \
+ /usr/include/sys/time.h client.hh socket.hh /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h time.hh server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h channel.hh user.hh \
+ thread.hh mutex.hh pollset.hh
+server.o: server.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/slist \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_slist.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/hash_map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_hashtable.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tempbuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algo.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_heap.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_hash_fun.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_hash_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iomanip \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iomanip.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/sys/time.h /usr/include/sys/resource.h \
+ /usr/include/bits/resource.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/pwd.h /usr/include/malloc.h \
+ defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ codes.hh db.hh filecert.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h scheduler.hh event.hh time.hh \
+ scheduled.hh search.hh file.hh command.hh data.hh address.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/sys/socket.h /usr/include/arpa/inet.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h ternary.hh client.hh \
+ socket.hh /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h server.hh \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h channel.hh user.hh \
+ thread.hh mutex.hh pollset.hh remote.hh
+ternary.o: ternary.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h ternary.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h
+db.o: db.cc db.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/slist \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_slist.h \
+ client.hh defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h command.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h data.hh address.hh /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h socket.hh /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h time.hh /usr/include/sys/time.h server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h channel.hh user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ thread.hh mutex.hh pollset.hh
+cidclient.o: cidclient.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h cidclient.hh \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h filecert.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h address.hh /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h socket.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ data.hh command.hh time.hh /usr/include/sys/time.h functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc
+filecert.o: filecert.cc \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+ /usr/include/alloca.h /usr/include/string.h \
+ /usr/local/ssl/include/openssl/sha.h \
+ /usr/local/ssl/include/openssl/evp.h \
+ /usr/local/ssl/include/openssl/opensslconf.h \
+ /usr/local/ssl/include/openssl/bio.h /usr/include/stdio.h \
+ /usr/include/bits/stdio_lim.h /usr/local/ssl/include/openssl/crypto.h \
+ /usr/local/ssl/include/openssl/stack.h \
+ /usr/local/ssl/include/openssl/safestack.h \
+ /usr/local/ssl/include/openssl/opensslv.h \
+ /usr/local/ssl/include/openssl/symhacks.h \
+ /usr/local/ssl/include/openssl/md2.h \
+ /usr/local/ssl/include/openssl/md4.h \
+ /usr/local/ssl/include/openssl/md5.h \
+ /usr/local/ssl/include/openssl/ripemd.h \
+ /usr/local/ssl/include/openssl/des.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/rc4.h \
+ /usr/local/ssl/include/openssl/rc2.h \
+ /usr/local/ssl/include/openssl/rc5.h \
+ /usr/local/ssl/include/openssl/blowfish.h \
+ /usr/local/ssl/include/openssl/cast.h \
+ /usr/local/ssl/include/openssl/idea.h \
+ /usr/local/ssl/include/openssl/mdc2.h \
+ /usr/local/ssl/include/openssl/rsa.h \
+ /usr/local/ssl/include/openssl/bn.h \
+ /usr/local/ssl/include/openssl/dsa.h \
+ /usr/local/ssl/include/openssl/dh.h \
+ /usr/local/ssl/include/openssl/objects.h \
+ /usr/local/ssl/include/openssl/obj_mac.h \
+ /usr/local/ssl/include/openssl/asn1.h /usr/include/bits/time.h \
+ /usr/local/ssl/include/openssl/hmac.h file.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/signal.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ filecert.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/netinet/in.h /usr/include/stdint.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h defines.hh command.hh \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h data.hh address.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/sys/socket.h /usr/include/arpa/inet.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h ternary.hh functions.hh
+auth.o: auth.cc server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h socket.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h data.hh address.hh command.hh time.hh \
+ /usr/include/sys/time.h client.hh channel.hh user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ thread.hh mutex.hh pollset.hh functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc
+elite.o: elite.cc
+info.o: info.cc server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h socket.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h data.hh address.hh command.hh time.hh \
+ /usr/include/sys/time.h client.hh channel.hh user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ thread.hh mutex.hh pollset.hh
+share.o: share.cc server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h socket.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h data.hh address.hh command.hh time.hh \
+ /usr/include/sys/time.h client.hh channel.hh user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ thread.hh mutex.hh pollset.hh functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc \
+ file.hh filecert.hh ternary.hh codes.hh
+transfer.o: transfer.cc server.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/list \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_uninitialized.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_list.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/vector \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_vector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_bvector.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h socket.hh \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/netinet/in.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/socket.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h data.hh address.hh command.hh time.hh \
+ /usr/include/sys/time.h client.hh channel.hh user.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/set \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_set.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multiset.h \
+ thread.hh mutex.hh pollset.hh functions.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/string \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstddef \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/straits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cctype \
+ /usr/include/ctype.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/cstring \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/alloc.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iterator \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/std/bastring.cc
+security.o: security.cc /usr/include/errno.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/types.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/time.h /usr/include/time.h /usr/include/bits/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/resource.h \
+ /usr/include/bits/resource.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/sys/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/wait.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/bits/siginfo.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/signal.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h security.hh
+thread.o: thread.cc /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /usr/include/bits/types.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/stdio_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/sigset.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ thread.hh /usr/include/stdlib.h /usr/include/sys/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/string.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h
+mutex.o: mutex.cc thread.hh /usr/include/stdlib.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+ /usr/include/alloca.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/string.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h mutex.hh /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h
+data.o: data.cc defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /usr/include/_G_config.h /usr/include/bits/types.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /usr/include/string.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/signal.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h data.hh
+time.o: time.cc time.hh /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stddef.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/stdarg.h \
+ /usr/include/bits/types.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/stdio_lim.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+ /usr/include/alloca.h /usr/include/string.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/sys/time.h \
+ /usr/include/bits/time.h defines.hh \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/map \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_tree.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_algobase.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_config.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_relops.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_pair.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/type_traits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/limits.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/new \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/include/exception \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/iostream.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/streambuf.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_iterator.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_alloc.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/signal.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_construct.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_function.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_map.h \
+ /gnu/lib/gcc-lib/i686-pc-linux-gnu/2.95.3/../../../../include/g++-3/stl_multimap.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h

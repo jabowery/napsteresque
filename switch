@@ -1,0 +1,497 @@
+
+bool Server::ProcessOfflineCommand(Client *caller) {
+  Command *com = caller->PopCommand();
+  if (com == NULL)
+    return false;
+  
+  caller->IdleTime(NOW);
+
+  char *data = (char *)com->data;
+  Command::Code commandcode = com->code;
+
+  LOG(DEBUG, "%s cmd[%d]", caller->Address(), commandcode);
+  //StripSpace(data);
+
+  switch (commandcode) {
+  case DATAPORT_TEST: {
+    TDP *tdp = new TDP(caller->peer.ip, data);
+    if (tdp->Run())
+      TDPQueue.push_front(tdp);
+    else delete tdp;
+    break;
+  }
+  
+  case CAPABILITIES: 
+    SetClientCapabilities(caller, com);
+    break;
+    
+//VN
+  case F2_LOGIN_REQUEST:{
+    if (!F2Login(caller, com))
+      caller->status = DEAD;
+    break;  
+}
+
+ case F2_LOGIN_AUTH_DATA:{
+   caller->status = F2AuthData(caller, com) ? LOGGED_ON : DEAD;
+   break;
+}
+
+ default:
+    caller->Say(MUST_LOGIN, "%d: %s", commandcode, data);
+    LOG(NOTICE, "unknown command code %d from %s",
+	       commandcode, caller->Address());
+    break;
+  }    
+  
+  delete com;
+  return true;
+}
+
+bool Server::ProcessOnlineCommand(Client *caller) {
+  Command *com = caller->PopCommand();
+  if (com == NULL)
+    return false;
+
+  caller->IdleTime(NOW);
+
+  char *data = (char *)com->data;
+  Command::Code commandcode = com->code;
+
+  // cannot log this way anymore, data may unprintable and/or not null-terminated
+  LOG(DEBUG, "%s cmd[%d]", caller->name, commandcode);
+  // StripSpace(data);
+
+  switch (commandcode) {
+    case DATAPORT_TEST: {
+      TDP *tdp = new TDP(caller->peer.ip, data);
+      if (tdp->Run())
+	TDPQueue.push_front(tdp);
+      else delete tdp;
+    }
+    break;
+
+    case FILEMETA:
+      FileMeta(caller, com);
+      break;
+
+    case ADD_SONG:
+      AddSong(caller, com);
+      break;
+
+    case ADD_SONG2:
+      AddSong2(caller, com);
+      break;
+
+    case REMOVE_SONG:
+      RemoveSong(caller, com);
+      break;
+
+    case SONG_CERT:
+      AddSongCert(caller, com);
+      break;
+
+    case SONG_CERT2:
+      AddSongCert2(caller, com);
+      break;
+
+    case JOIN_CHAN: 
+      JoinChannel(caller, com);
+      break;
+
+    case PART_CHAN: 
+      PartChannel(caller, com);
+      break;
+
+    case CHANNEL_MESSAGE: 
+      SendChannelMessage(caller, com);
+      break;
+
+    case CHANNEL_EMOTE: 
+      SendChannelEmote(caller, com);
+      break;
+
+    case CHANNEL_TOPIC: 
+      SetChannelTopic(caller, com);
+      break;
+
+    case CHANNEL_LIST:
+      SendChannelListing(caller);
+      break;
+
+    case GET_LINESPEED: 
+      GetLineSpeed(caller, com);
+      break;
+
+    case COMP_MESSAGE:
+      SendMessage(caller, com);
+      break;
+
+    case ADD_FILE: 
+      AddFile(caller, com);
+      break;
+
+    case ADD_PATH_BLOCK:
+      AddPathBlock(caller, com);
+      break;
+
+    case REMOVE_FILE: 
+      RemoveFile(caller, data);
+      break;
+
+    case REMOVE_ALL_FILES:
+      RemoveAllFiles(caller);
+      break;
+
+    case ADD_NOTIFY:
+      AddNotify(caller, com);
+      break;
+
+    case CHECK_ONLINE:
+      CheckOnline(caller, com);
+      break;
+
+    case REMOVE_NOTIFY: 
+      RemoveNotify(caller, com);
+      break;
+
+    case NOTIFY_LIST: 
+      ListNotifies(caller);
+      break;
+      
+    case NOTIFY_CLEAR:
+      ClearNotifies(caller);
+      break;
+
+    case IGNORE_LIST:
+      ListIgnores(caller);
+      break;
+
+    case IGNORE_ADD:
+      AddIgnore(caller, com);
+      break;
+
+    case IGNORE_REMOVE:
+      RemoveIgnore(caller, com);
+      break;
+
+    case IGNORE_CLEAR:
+      ClearIgnores(caller);
+      break;
+
+    case SET_DATAPORT: 
+      SetDataPort(caller, com);
+      break;
+
+    case SET_LINESPEED: 
+      SetLineSpeed(caller, com);
+      break;
+
+    case BCAST_MODERATOR:
+      if (!RequireLevel(caller, MODERATOR)) 
+	break;
+      Broadcast(MODERATOR, BCAST_MODERATOR, "%s %s", caller->name, data);
+      break;
+
+    case ANNOUNCE_LOCAL:
+      if (!RequireLevel(caller, ELITE))
+	break;
+      Broadcast(LEECH, ANNOUNCE_LOCAL, "%s %s", caller->name, data);
+
+      break;
+
+    case CONFIG_ERROR:
+      ConfigError(caller, com);
+      break;
+
+    case VIEW_FILES:
+      ViewFiles(caller, com);
+      break;
+
+    case USER_INFO:
+      ShowUserInformation(caller, com);
+      break;
+
+    case SHARE_STATS: {
+      unsigned long users = AllowVirtual?VirtualUsers:TotalUsers;
+      unsigned long files = AllowVirtual?VirtualFiles:TotalFiles;
+      unsigned long long size = AllowVirtual
+	                              ?((VirtualSize / 1000000000) + 1)
+                                      :((TotalSize / 1000000000) + 1);
+      caller->Say(SHARE_STATS, "%lu %lu %llu", users, files, size);
+    }
+    break;
+
+    case FIREWALL_TRANSFER:
+      FirewallTransfer(caller, com);
+      break;
+
+    case DELAY_DOWNLOAD:
+      DelayDownload(caller, com);
+      break;
+
+    case KILL_USER:
+      Kill(caller, com);
+      break;
+
+    case BAN_LIST:
+      ListBans(caller, com);
+      break;
+
+    case BAN_ADD:
+      Ban(caller, com);
+      break;
+
+    case BAN_REMOVE:
+      UnBan(caller, com);
+      break;
+
+    case BAN_MODIFY:
+      ModifyBan(caller, com);
+      break;
+
+    case NEW_DOWNLOAD:
+      caller->Downloading++;
+      break;
+
+    case DOWNLOAD_COMPLETE:
+      DownloadComplete(caller, com);
+      break;
+
+    case NEW_UPLOAD:
+      caller->Uploading++;
+      break;
+
+    case UPLOAD_COMPLETE:
+      if (caller->Uploading)
+	caller->Uploading--;
+      break;
+
+    case DOWNLOAD_REQUEST:
+      DownloadRequest(caller, com);
+      break;
+
+    case DOWNLOAD_ACCEPTED:
+      DownloadAccepted(caller, com);
+      break;
+
+    case ACCEPT_FAILED:
+      AcceptFailed(caller, com);
+      break;
+
+    case SEARCH_REQUEST: 
+      SearchRequest(caller, com);
+      break;
+
+    case SEARCH_CANCEL:
+      SearchCancel(caller, com);
+      break;
+    
+    case CHANNEL_CLEAR:
+      ClearChannel(caller, com);
+      break;
+
+    case SERVER_VERSION:
+      ShowServerVersion(caller);
+      break;
+
+    case SERVER_RELOAD_DB:
+      ReloadConfig(caller, com);
+      break;
+      
+    case SERVER_CONFIG:
+      Config(caller, com);
+      break;
+
+    case SERVER_PING:
+      caller->Say(SERVER_PING, "%s", data);
+      break;
+
+    case CHANNEL_SETLEVEL: 
+      ChannelSetLevel(caller, com);
+      break;
+
+    case CHANNEL_USERLIST: 
+      ChannelUserList(caller, com);
+      break;
+
+    case CHANNEL_LIST2:
+      ChannelInfo(caller, com);
+      break;
+
+    case USERFLAG_MUTE:
+      UserMute(caller);
+      break;
+
+    case USERFLAG_CLOAK:
+      UserCloak(caller);
+      break;
+    
+    case SERVER_USERLIST: 
+      ServerUserList(caller, com);
+      break;
+
+    case SERVER_SEARCH:
+      ServerSearch(caller, com);
+      break;
+      
+    case SERVER_SHUTDOWN: 
+      Shutdown(caller, com);
+      break;
+
+    case LINK_KILL:
+      LinkKill(caller, com);
+      break;
+
+    case F2_ACCT_STATUS_UPDATE_REQ:
+      caller->Update();
+      caller->SayF2AccountStatusUpdateResponse();
+      break;
+
+    default: {
+	caller->Say(ERROR_MESSAGE, "unknown command code %d", commandcode);
+	LOG(NOTICE, "unknown command code %d from %s (%s) running '%s'",
+          commandcode, caller->name, caller->Address(), caller->version);
+      }
+      break;
+  }
+  
+  delete com;
+  return true;
+}
+
+bool Server::ProcessRemoteCommand(RemoteServer *caller) {
+  Command *com = caller->PopCommand();
+  if (com == NULL)   
+    return false;
+  
+  char *data = (char *)com->data;
+  Command::Code commandcode = com->code;
+
+  LOG(DEBUG, "%s:%d cmd[%d]: %s", caller->Address(), caller->Port(), commandcode, data);
+  //StripSpace(data);
+
+  if (caller->Status() != LOGGED_ON) {
+
+    switch (commandcode) {
+      case LINK_REQUEST:
+         LinkRequest(caller, data);
+         break;
+      case LINK_SUCCESSFUL:
+         LinkSuccessful(caller, data);
+         break;
+      case LINK_DENIED:
+         LinkDenied(caller, data);
+         break;
+      case LINK_HEARTBEAT:
+ 	 LinkHeartbeat(caller);
+         break;
+    }
+  
+  } else {
+
+    // Authenticated commands
+    switch (commandcode) {
+      case REMOTE_CHANNEL_JOIN:
+        RemoteChannelJoin(caller, com);
+        break;
+      case REMOTE_CHANNEL_PART:
+        RemoteChannelPart(caller, com);
+        break;
+      case REMOTE_CHANNEL_MESSAGE:
+        RemoteChannelMessage(caller, com);
+        break;
+      case REMOTE_CHANNEL_EMOTE:
+        RemoteChannelEmote(caller, com);
+        break;
+      case LINK_HEARTBEAT:
+        LinkHeartbeat(caller);
+        break;
+      case LINK_SHUTDOWN:
+        LinkShutdown(caller, data);
+        break;
+      case REMOTE_SHARE_STATS:
+        RemoteShareStats(caller, data);
+        break;
+      case REMOTE_DL_RESPONSE:
+        RemoteDownloadResponse(caller, data);
+        break;
+      case REMOTE_DL_ATTEMPT:
+        RemoteDownloadAttempt(caller, com);
+        break;
+      case REMOTE_DL_NOT_FOUND:
+        RemoteDownloadNotFound(caller, data);
+        break;
+      case REMOTE_ACCEPT_FAILED:
+        RemoteAcceptFailed(caller, com);
+        break;
+      case REMOTE_DL_DELAYED:
+	RemoteDownloadDelayed(caller, data);
+	break;
+      case REMOTE_FW_RESPONSE:
+	RemoteFirewallResponse(caller, data);
+	break;
+      case REMOTE_SET_DATAPORT:
+	RemoteSetDataPort(caller, data);
+	break;
+      case REMOTE_USER_JOIN:
+	RemoteUserJoin(caller, com);
+	break;
+      case REMOTE_USER_PART:
+	RemoteUserPart(caller, com);
+	break;
+      case REMOTE_SEARCH_REQUEST:
+	RemoteSearchRequest(caller, data);
+	break;
+      case REMOTE_SEARCH_REPLY:
+	RemoteSearchReply(caller, data);
+	break;
+      case REMOTE_SEARCH_COMPLETED:
+	RemoteSearchCompleted(caller, data);
+	break;
+      case REMOTE_SYSTEM_MESSAGE:
+	RemoteSystemMessage(caller, data);
+	break;
+      case REMOTE_COMP_MESSAGE: 
+	RemoteSendMessage(caller, data);
+	break;
+      case REMOTE_SYNC:
+	RemoteSync(caller, data);
+	break;
+      case REMOTE_ERROR_MODAL:
+	RemoteErrorModal(caller, data);
+	break;
+      case REMOTE_VIEW_FILES:
+	RemoteViewFiles(caller, data);
+	break;
+      case REMOTE_NOTIFY_FILE:
+	RemoteNotifyFile(caller, data);
+	break;
+      case REMOTE_VIEW_COMPLETED:
+	RemoteViewCompleted(caller, data);
+	break;
+      case REMOTE_CLIENT_PING:
+	RemoteClientPing(caller, data);
+	break;
+      case REMOTE_CLIENT_PONG:
+	RemoteClientPong(caller, data);
+	break;
+      case REMOTE_GET_USER_INFO:
+	RemoteGetUserInfo(caller, data);
+	break;
+      case REMOTE_USER_INFO:
+	RemoteUserInfo(caller, data);
+	break;
+      case REMOTE_KILL_USER:
+	RemoteKillUser(caller, data);
+	break;
+      default:
+	LOG(ERR, "unknown command code %d from %s (%s)", commandcode, caller->Name(), caller->Address());
+	break;
+    }
+  }
+
+  delete com;
+  return true;
+}
+

@@ -1,0 +1,10 @@
+Sep 09 21:33:22 napd[27195] INFO: Security::set_coredump_size: 2147483647
+Sep 09 21:33:22 napd[27195] INFO: main: napd 4.0
+Sep 09 21:33:22 napd[27195] INFO: main: root@twumtwum 16:23:21 09/09/01
+Sep 09 21:33:22 napd[27195] INFO: Security::set_dtable_size: 9999
+Sep 09 21:33:22 napd[27195] INFO: Security::stack_protect: bfffc000 -exec
+Sep 09 21:33:22 napd[27195] INFO: Security::change_root: /proj/napd
+Sep 09 21:33:22 napd[27195] INFO: Security::change_user: 99
+Sep 09 21:33:22 napd[27195] INFO: Security::seed_random: 583641504
+Sep 09 21:33:22 napd[27195] INFO: main: multicast group: 224.6.6.6:9999
+Sep 09 21:33:22 napd[27195] ERROR: main: Address already in use

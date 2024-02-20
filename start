@@ -1,0 +1,3 @@
+#!/bin/sh
+ulimit -c unlimited
+./napd -srgb -p 1235 -d 9999 -u nobody -l 9 -a asdf/asdf@foo |tee napd.log
